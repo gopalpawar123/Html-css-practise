@@ -1,0 +1,61 @@
+
+<div class="container">
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+</div>
+<style>
+    body {
+        height: 1400px;
+    }
+
+    .container {
+        width: 400px;
+        height: 400px;
+        margin: auto;
+        border: solid;
+        position: relative;
+
+    }
+    .box1 {
+        background-color: #890;
+        width: 100px;
+        height: 100px;
+        position: static;
+        /* parent for static elements is container */
+        /* position static means interconnected as well as movable elements */
+    }
+    .box2 {
+        background-color: #890;
+        width: 100px;
+        height: 100px;
+        position: fixed;
+        
+
+    }
+    .box3 {
+        background-color: #666;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        /* not movable but free in entire body  */
+        right: 0%;
+        top: 0%;
+    }
+    .box4{
+        background-color: #890;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        /* it is movable and free in entire body */
+        left: 0%;
+        bottom: 0%  ;
+    }
+    /* four properties of css */
+    /* 1. position static
+    /* 2. position fixed(non movable)
+    /* 3. position absolute(movable in entire body, parent =body)
+    /* 4. position relative(parent actual parent (movable) )
+     */
+</style>

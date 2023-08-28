@@ -1,0 +1,118 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.img-fluid {
+    width: 50px;
+    height: 40px;
+}
+
+.header {
+    /* border: solid; */
+    /* margin-top: 20px; */
+    padding: 15px;
+}
+
+.header a {
+    color: #666 !important;
+    font-weight: bold;
+}
+
+.header a:hover {
+    color: black !important;
+}
+
+.top-menu-background {
+    background-color: aliceblue !important;
+    border-bottom: 1px #999 solid;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.slider-content {
+    /* border: solid; */
+    padding-left: 60px;
+    padding-top: 200px;
+}
+.demo{
+    width: 80%;
+    
+}
+.content{
+    /* border: solid; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.categories a, .brand a{
+    color: #666 !important;
+
+}
+.categories a:hover, .brand a:hover{
+    color: #000 !important;
+    
+}
+.categories button{
+    color: #000 !important;
+    background-color: white !important;
+}
+.brand{
+    /* border: solid; */
+    margin:20px 0;
+}
+.brand ul{
+    border: solid 1px #ccc;
+}
+.left-banner{
+    margin-bottom: 20px;
+}
+.footer{
+    background-color: #ddd;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer-services h1{
+    font-size: 22px;
+    font-weight: bold;
+}
+.footer-services a{
+    padding-left: 0;
+    color: #000;
+}
+.copyright{
+    color: #999;
+    border-top: 1px solid;
+    margin-top: 20px;
+
+}
+.copyright a{
+    color: #aaa;
+}
+
+/* responsive for mobile portrait */
+
+@media only screen and (max-width:575px) {
+    .logo {
+        /* border: solid; */
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    .top-menu {
+        justify-content: center !important;
+    }
+
+    .slider-content {
+        display: none;
+    }
+    .footer-services{
+        /* border: solid; */
+        padding-left: 30px;
+        padding-bottom: 20px;
+    }
+    .copyright, .author{
+        padding: 20px 0;
+        text-align: center !important;
+    }
+    
+}

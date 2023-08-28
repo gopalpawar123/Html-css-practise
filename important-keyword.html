@@ -1,0 +1,20 @@
+<div id="a1" class="a2" style="color: red;">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptatem distinctio nesciunt nobis error explicabo culpa laboriosam mollitia vero quibusdam placeat, consequuntur sed quo ut aliquid impedit, doloribus harum deserunt.
+</div>
+<!-- between id and classes inline css the inline css has highest prority -->
+<!-- between id and classes id has highest prority -->
+<!-- inline css has highest prority over internal css -->
+<style>
+    div{
+        font-size: 3rem;
+    }
+    #a1{
+        background-color: red;
+        color: white !important;
+    }
+    .a2{
+        background-color: green !important;
+        /* when we are writing important keyword that has highest prority */
+        /* by using important keyword we can override highest prority value */
+    }
+</style>
